@@ -84,6 +84,11 @@ function App() {
             <code>{hash}</code>
             <p>Amount of Gas Emitted : {gas}</p>
             <p>Amount of CO2 Pollution : {carbon} KGS</p>
+            <p>
+              Enter This ETH Code: 0xa8ac2b7148e3f60492d48d63d10a0e8469b3fbde
+            </p>
+            <br />
+            <p></p>
           </div>
         </div>
       </div>
