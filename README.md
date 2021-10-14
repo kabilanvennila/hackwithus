@@ -9,3 +9,25 @@
   </em> 
   <br>
 <img align="right" width=300px alt="laptop" src="https://media.giphy.com/media/3oKGzgNfssFG1xlwC4/giphy.gif" />
+  <hr>
+  <p><i>Demo: </i></p>
+  <br>
+  <p><i>API: https://wowexi8001.pythonanywhere.com/api/Apis/</i></p>
+  <hr>
+  <h2><strong>Features</strong></h2>
+  <p>🌳 The Carbon footprint left behind by the user whenever he exchanges cryptocurrency.</p>
+  <p>🌳 The Amount of carbon footprint emitted by ethereum hash provided by user.</p>
+  <p>🌳 Sleek interface for the user to control his consumption.</p>
+  <p>🌳 Proper Documentation.</p>
+  <hr>
+  <h2><strong>Sample Design</strong></h2>
+  <img src="https://i.gyazo.com/5cfd24adb6782a9db48e482fb7688a1a.jpg")>
+  <hr>
+  <h2><strong>Languages and Tools used</strong></h2>
+  <img src="https://img.icons8.com/color/2x/react-native.png"> <img src="https://img.icons8.com/color/2x/javascript.png">
+  <img width=300px src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png">
+  
+
+
+  
+  
