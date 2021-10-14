@@ -9,10 +9,7 @@
   </em> 
   <br>
 <img align="right" width=300px alt="laptop" src="https://media.giphy.com/media/3oKGzgNfssFG1xlwC4/giphy.gif" />
-  <hr>
-  <p><i>Demo: </i></p>
-  <br>
-  <p><i>API: https://wowexi8001.pythonanywhere.com/api/Apis/</i></p>
+  
   <hr>
   <h2><strong>Features</strong></h2>
   <p>🌳 The Carbon footprint left behind by the user whenever he exchanges cryptocurrency.</p>
