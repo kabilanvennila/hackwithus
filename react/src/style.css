@@ -37,7 +37,7 @@
     color:white;
   }
 
-
+  
   .card__side {
     height: 15rem;
     transition: all 0.8s ease;
@@ -50,7 +50,7 @@
             backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem  white;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   }
   .card__side--front {
     background-color: #1c1c1c;
@@ -71,6 +71,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #main-divsi {
+    color:white;
   }
   .card__cta {
     position: absolute;
