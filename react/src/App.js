@@ -83,7 +83,7 @@ function App() {
             <p>Ether Hash: </p>
             <code>{hash}</code>
             <p>Amount of Gas Emitted : {gas}</p>
-            <p>Amount of CO2 Pollution : {carbon}</p>
+            <p>Amount of CO2 Pollution : {carbon} KGS</p>
           </div>
         </div>
       </div>
