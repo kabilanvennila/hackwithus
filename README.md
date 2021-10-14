@@ -1,3 +1,3 @@
 # hackwithus
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+"https://giphy.com/gifs/forest-autumn-leaves-UxTZDNv0Zej4s
