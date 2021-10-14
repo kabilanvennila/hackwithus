@@ -12,7 +12,7 @@
   
   <p><i>Demo: </i></p>
   <br>
-  <p><i>API:  Carbonize.surge.sh</i></p>
+  <p><i>Live Link:  Carbonize.surge.sh</i></p>
   
   <hr>
   <h2><strong>Features</strong></h2>
