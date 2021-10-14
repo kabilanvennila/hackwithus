@@ -25,7 +25,7 @@
   <hr>
   <h2><strong>Languages and Tools used</strong></h2>
   <img src="https://img.icons8.com/color/2x/react-native.png"> <img src="https://img.icons8.com/color/2x/javascript.png">
-  <img width=300px src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png">
+  <img width=200px src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png">
   
 
 
