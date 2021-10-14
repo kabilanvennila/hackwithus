@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 import axios from "axios";
-import ResultCard from "./ResultCard";
+import "./style.css";
 
 function App() {
   let [hash, setHash] = useState("Null");
@@ -17,18 +17,19 @@ function App() {
     axios.get(url).then((res) => {
       if (enteredHash === "0x5dcfa3136bf47ec85d6510672fc762d7a21dff3f") {
         setHash(res.data[0].Address);
-        setGas(res.data[0].Gas);
-        setCarbon(res.data[0].Carbon);
+        setGas(res.data[0].gas_emitted);
+        console.log(res.data[0]);
+        setCarbon(res.data[0].co2_emitted);
         console.log(enteredHash);
       } else if (enteredHash === "0xe2093ba0ffec4a1513a854faa837394c33d9f1c0") {
         setHash(res.data[2].Address);
-        setGas(res.data[2].Gas);
+        setGas(res.data[2].gas_emitted);
         console.log(res.data[2].Gas);
-        setCarbon(res.data[2].Carbon);
+        setCarbon(res.data[2].co2_emitted);
       } else if (enteredHash === "0xa8ac2b7148e3f60492d48d63d10a0e8469b3fbde") {
         setHash(res.data[4].Address);
-        setGas(res.data[4].Gas);
-        setCarbon(res.data[4].Carbon);
+        setGas(res.data[4].gas_emitted);
+        setCarbon(res.data[4].co2_emitted);
         // console.log(res.data[4].Address);
       }
     });
@@ -76,7 +77,15 @@ function App() {
 
         <br />
         <br />
-        <ResultCard hash={hash} gas={gas} carbon={carbon} />
+        <div className="card__cont">
+          {/* <span className="blue">alert</span> */}
+          <div id="main-divsi">
+            <p>Ether Hash: </p>
+            <code>{hash}</code>
+            <p>Amount of Gas Emitted : {gas}</p>
+            <p>Amount of CO2 Pollution : {carbon}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
